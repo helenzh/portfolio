@@ -30,8 +30,8 @@
 
 
 <body>
-	<div class="se-pre-con"></div>
 	<div id="menu" class="panel" role="navigation" >
+	<!--drawer navigation-->
     <ul><h4>
         <li><a href="index.html">Home</a></li>
         <li><a href="aboutme.html">About Me</a></li>
@@ -42,14 +42,16 @@
 	<div class="container">
 		<div class="wrap push" >
 			<a href="#menu" class="menu-link"><img src="images/menu.png"></a>
+			<!--nav icon-->
 	        <div class="profile">
-	        	<img src="images/profilepicture.jpg" >
+	        	<img src="images/profilepicture.jpg">
 	        </div>
 			<div class="bio">
 				<h1>Hi, there!</h1>
 				<h5 style="width: 36%; margin:15px 32% 35px 32%;">I'm a product designer with combined experience of interaction design, visual design, and industrial design. I go to great length to make intuitive and delightful user interfaces. </h5>
 			</div>
 			<div class="nav">
+				<!--social links-->
 				<ul class="navlinks">
 						<li><a href="http://www.linkedin.com/in/helenzh"><img border="0" src="images/linkedin.png" onmouseover="this.src='images/linkedinactive.png'"
    						onmouseout="this.src='images/linkedin.png'" /></a></i>
@@ -62,7 +64,7 @@
 		</div>
 	</div>
 
-
+	<!--nine grids display-->
 	<a href="#">
 		<div class="teaser" style="background-image: url('images/buddies.gif');">
 			<div class="description">
@@ -145,18 +147,17 @@
 
 
 <script>
-    $(window).load(function() {
-		// Animate loader off screen
-		$(".se-pre-con").fadeOut("slow");;
-	});
 
     $(document).ready(function() {
         $('.menu-link').bigSlide();
     });
+    /*drawer navigation jQuery*/
+
     $(document).ready(function(){
 	$('a').confirmMailto();
 });
     !function(t){t.fn.confirmMailto=function(e){var n=t.extend({message:"Send Helen an email to  $to",to:"href",callback:function(){},success:function(){},fail:function(){}},e),a=/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi,i=function(e){var i=n.message,c=n.to;if(c="href"==c?t(this).attr("href").match(a):"html"==c?t(this).html():c,i=i.replace("$to",c)==i?i+c:i.replace("$to",c),confirm(i)){n.success();var o=!0}else{e.preventDefault(),n.fail();var o=!1}return setTimeout(function(){n.callback(o)},1),o};return this.filter('[href^="mailto:"]').each(function(){t(this).bind("click",i)}),this}}(jQuery);
+    /*mailto confirmation window*/
 
 </script>
 
