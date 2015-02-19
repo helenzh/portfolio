@@ -13,23 +13,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" type="text/css" href="styles/blockScroll.css">
+    <link rel="stylesheet" type="text/css" href="styles/blockScroll.css"><!--page scroll CSS-->
 
     <script src="scripts/jquery.min.js"></script>
     <script src="scripts/bigSlide.js"></script>
-    <script src="scripts/blockScroll.js"></script>
     <script src="http//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-   
+    <script src="scripts/blockScroll.js"></script><!--page scroll jQuery-->
     
+   
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
 
     <link rel="shortcut icon" href="images/favicon.ico">
 
 
-<!--[if lt IE 9]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 <script>
     $(function() {
         var blockScroller = $("#main-wrap").blockScroll({fadeBlocks:false});
@@ -42,12 +39,13 @@
         $("#Use-button").click(function() { blockScroller.goto(16); });
         $("#Dot-button").click(function() { blockScroller.goto(18); });
     });
-  </script>
+    /*page scroll jQuery plugin*/
+    
 
-  <script>
     $(document).ready(function() {
         $('.menu-link').bigSlide();
     });
+    /*drawer navigation jQuery plugin*/
 </script>
 
 </head>
