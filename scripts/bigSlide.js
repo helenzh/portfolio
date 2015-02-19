@@ -13,7 +13,7 @@
       'menu': ('#menu'),
       'push': ('.push'),
       'side': 'left',
-      'menuWidth': '10em',
+      'menuWidth': '12em',
       'speed': '300',
       'state': 'closed'
     }, options);

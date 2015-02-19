@@ -2,14 +2,15 @@
     background: rgba(0,0, 0, 0.6);
     z-index: 999999;
     position: fixed;
-    left: -10em; /*or width of your navigation panel*/
-    width: 10em; /*should match the above value*/
-    padding-top:15px;
+    left: -12em; /*or width of your navigation panel*/
+    width: 12em; /*should match the above value*/
+    padding-top:30px;
 }
 
 .panel a {
     display: block;
     padding: 0.8em;
+
 }
 
 
@@ -46,15 +47,6 @@ body {
     font-family: "Montserrat","Proxima Nova", "Helvetica", sans-serif;
 }
 
-h1 {
-    font-size: 4em;
-    font-weight: normal;
-    margin: 0;
-    color: #000;
-    font-family: "Montserrat","Proxima Nova", "Helvetica", sans-serif;
-    line-height: 1;
-}
-
 .ls-screen {
     display: block;
     background: url('images/helen.jpg');
@@ -77,14 +69,20 @@ h1 {
 }
 
 .up-down-arrows {
-    display: block;
-    position: fixed;
-    bottom: 0;
-    right: 0;
+    display:block;
+    position:absolute;
+ 
+    top:65%;
+
+    margin-left:48%;
+
+    padding-right:25px;
+    
+      
 }
 
 .arrow {
-    cursor: pointer;
+    cursor:pointer;
 }
 
 .intro1 {
@@ -105,35 +103,16 @@ code {
     width: 500px;
 }
 
-p {
-    margin: 40px auto;
-    color: #000;
-    font-size: 1.5em;
-    text-align: center;
-    max-width: 650px;
-    font-family: "Montserrat","Proxima Nova", "Helvetica", sans-serif;
-}
-}
-
 .top-menu {
     display: block;
     position: fixed;
     top: 0;
     margin: auto;
     width: 100%;
-    text-align: center;
-    font-family: 'Chelsea Market', Georgia, serif;
-    font-size: 1em;
-}
+    
+} 
 
-.toc-button {
-    cursor: pointer;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    border-radius: 5px;
-    padding: 3px 5px;
-}
+
 
 a {
     color: #1b1b1b;
@@ -176,6 +155,7 @@ a {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
 
 .about-section {
     background: #113F8C;

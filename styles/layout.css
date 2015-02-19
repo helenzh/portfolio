@@ -3,14 +3,14 @@
     background: rgba(0,0, 0, 0.6);
     z-index: 999999;
     position: fixed;
-    left: -10em; /*or width of your navigation panel*/
-    width: 10em; /*should match the above value*/
-    padding-top:15px;
+    left: -12em; /*or width of your navigation panel*/
+    width: 12em; /*should match the above value*/
+    
 }
 
 .panel a {
     display: block;
-    padding: 1em;
+    padding: 0em;
 }
 
 .panel a:link,
