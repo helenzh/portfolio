@@ -21,9 +21,10 @@
 }
 
 .panel a:hover,
-.panel a:active {
+.panel a :active {
     background: #0ec899;
 }
+
 
 a:link,
 a:visited {
@@ -70,13 +71,13 @@ body {
 
 .up-down-arrows {
     display:block;
-    position:absolute;
+    position:fixed;
  
-    top:65%;
+    top:85%;
 
-    margin-left:48%;
+    margin-left:90%;
 
-    padding-right:25px;
+   
     
       
 }
@@ -85,9 +86,6 @@ body {
     cursor:pointer;
 }
 
-.intro1 {
-    background: red;
-}
 
 code {
     background-color: #000;
