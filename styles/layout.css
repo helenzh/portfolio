@@ -10,7 +10,8 @@
 
 .panel a {
     display: block;
-    padding: 0em;
+    padding: 1em;
+    margin-top:15px;
 }
 
 .panel a:link,
