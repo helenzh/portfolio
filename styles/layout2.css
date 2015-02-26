@@ -10,9 +10,7 @@
 .panel a {
     display: block;
     padding: 0.8em;
-
 }
-
 
 .panel a:link,
 .panel a:visited {
@@ -25,14 +23,9 @@
     background: #0ec899;
 }
 
-
 a:link,
 a:visited {
     text-decoration: none;
-}
-
-.p a{
-    color:#fff;
 }
 
 .menu-link {
@@ -45,16 +38,6 @@ a:visited {
 
 .yo { 
     position: relative; 
-}
-
-.ls-screen {
-    display: block;
-    background: url('images/helen.jpg');
-    width: 300px;
-}
-
-.third {
-    background: blue;
 }
 
 #main-wrap>div {
@@ -79,14 +62,12 @@ a:visited {
     cursor:pointer;
 }
 
-
 .top-menu {
     display: block;
     position: fixed;
     top: 0;
     margin: auto;
-    width: 100%;
-    
+    width: 100%;  
 } 
 
 

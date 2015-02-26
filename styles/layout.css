@@ -81,6 +81,13 @@ a:visited {
 	position: relative;
 	text-align:center; 
 }
+.bio h5 {
+	overflow:hidden;
+	float: left;
+	position: relative;
+	text-align:center;
+	width: 36%; margin:15px 32% 35px 32%; 
+}
 
 .nav {
     text-align: center;
@@ -194,53 +201,27 @@ img.greyscale{
 		    display: block;
 		    padding-top: 75%; 
 		}
-
-		#selfie{
-			text-align: center;
-			margin-bottom: 10px;
-		}
-
-		.annotation {
-			border-top: none;
-			padding-top: 0;
-		}
-
-		.extra{
-			display:none !important;
-		}
-
-		.show{
-			display: block;
-		}
-
-		.show2{
-			display: inline-block;
-		}
-	}
-
+}
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 		.extra{
 			display:none !important;
 		}
 
-		.captions p{
-			font-size: 12px;
-			line-height: 15px;
-		}
-
-		#selfie{
+		.profile{
 			text-align: center;
 			margin-bottom: 10px;
+			width:40%;
+			margin-left:30%;
+			margin-right:30%;
 		}
-
-		.show{
-			display: block;
-		}
-
-		.show2{
-			display: inline-block;
-		}
+		.bio h5 {
+	overflow:hidden;
+	float: left;
+	position: relative;
+	text-align:center;
+	width: 60%; margin:15px 20% 35px 20%; 
+}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -261,24 +242,26 @@ img.greyscale{
 		.profile{
 			text-align: center;
 			margin-bottom: 10px;
+			width:50%;
+			margin-left:25%;
+			margin-right:25%;
 		}
 
-		.extra{
-			display:none !important;
-		}
+		.bio h5 {
+	overflow:hidden;
+	float: left;
+	position: relative;
+	text-align:center;
+	width: 80%; margin:15px 10% 35px 10%; 
+}
 
-		.captions p{
-			font-size: 12px;
-			line-height: 15px;
-		}
 
 		.description p{
 			display: none;
 		}
 
 		.description{
-			background-color: rgba(50, 0, 0, 0.6);
-		    transform: translateY(0%);
+			transform: translateY(0%);
 		    -moz-transform: translateY(0%);
 		    -o-transform: translateY(0%);
 		    -webkit-transform: translateY(0%);
@@ -286,6 +269,5 @@ img.greyscale{
 
 		.description h6{
 			color: #fff;
-			background-color: rgba(0, 0, 0, .6);
 			border: 0;
 		}
